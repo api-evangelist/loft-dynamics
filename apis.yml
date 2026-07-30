@@ -1,8 +1,26 @@
 aid: loft-dynamics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loft-dynamics.png
 name: Loft Dynamics
-description: 'Loft Dynamics is a company surfaced as a portfolio company of craft-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Loft Dynamics is a Swiss aviation technology company (founded 2016, headquartered in
+  Dübendorf, Switzerland with a North American office in Santa Monica) that builds virtual reality
+  flight simulation training devices (FSTDs) for helicopters, fixed-wing aircraft, and eVTOLs. Its
+  simulators combine full-scale replica cockpits, dynamic motion platforms, 360-degree VR visuals,
+  and advanced pose tracking, and were the first VR aircraft simulators to earn EASA and FAA
+  qualification. Products include VR simulators for the Airbus H145, Airbus H125, and Robinson R22
+  helicopters, with Boeing 737 and eVTOL platforms in development. Customers include Alaska Airlines,
+  the FAA, Airbus Helicopters, the LAPD, and Marshall University. The company operates the LoftHUB
+  customer platform but publishes no public developer API, SDK, or API documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/loft-dynamics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Infrastructure
+- Aviation
+- Flight Simulation
+- Virtual Reality
+- Pilot Training
+- Simulation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://loftdynamics.com
+- type: Blog
+  url: https://www.loftdynamics.com/news/
+- type: Support
+  url: https://www.loftdynamics.com/contact/
+- type: PrivacyPolicy
+  url: https://www.loftdynamics.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.loftdynamics.com/legal-notice/
+- type: Login
+  url: https://lofthub.loftdynamics.com/
+- type: DomainSecurity
+  url: security/loft-dynamics-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
